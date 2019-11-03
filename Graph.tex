@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=1.13}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}
+\addplot3[
+    surf,
+    domain = -4*pi:4*pi,
+    samples = 50,
+]
+{sin(x)^2+sin(y)^2};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

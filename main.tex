@@ -1,0 +1,72 @@
+% MUST be compiled using the --shell-escape tag. "pdflatex --shell-escape main.tex"
+
+\documentclass{article}
+\input{Preamble.tex}
+\usepackage[utf8]{inputenc}
+\usepackage{gnuplottex}
+\usepackage{tkz-fct}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\title{The Application and Investigation of Lissajous Curves}
+\author{Alyssa Eckerman, Elias Little}
+\date{May 2019}
+
+\pgfplotsset{compat=1.13}
+\begin{document}
+
+\maketitle
+\section{History}
+\input{Parts/History.tex}
+\newpage
+\section{Mathematical Components}
+\input{Parts/MathComponents.tex}
+\newpage
+\section{Arc Length}
+\input{Parts/ArcLength.tex}
+\newpage
+\section{Path Integral}
+\input{Parts/PathIntegrals.tex}
+\newpage
+\section{Contributions}
+\input{Parts/Contributions.tex}
+\section{Conclusion}
+\input{Parts/Conclusion.tex}
+\newpage
+\begin{thebibliography}{9}
+%\bibitem{latexcompanion}
+%Michel Goossens, Frank Mittelbach, and Alexander Samarin.
+%\textit{The \LaTeX\ Companion}.
+%Addison-Wesley, Reading, Massachusetts, 1993.
+\bibitem{Harmonograph}
+“Beautiful Curves: The Harmonograph.” \textit{Fronkonstin}, 26 Sept. 2016, \texttt{fronkonstin.com/2014/10/13/beautiful-curves-the-harmonograph/}
+
+\bibitem{LissajousFigures}
+Greenslade, Thomas  B. “Lissajous Figures.” \textit{Instruments for Natural Philosophy}, \texttt{physics.kenyon.edu/EarlyApparatus/Oscillations\_and\_Waves/Lissajous\_Figures/
+Lissajous\_Figures.html.}
+
+\bibitem{JulesAntoineLissajous}
+“Jules Antoine Lissajous (1822--1880) --- Historical Sketch.” \textit{Hardy Calculus,}
+\texttt{hardycalculus.com/calcindex/IE\_lissajous.htm.}
+
+\bibitem{PhaseShift}
+Krishnavedala. "Figure showing several Lissajous figures for different phase delays."
+\textit{Wikipedia}, Wikipedia, 20 Aug. 2014, \texttt{https://en.wikipedia.org/wiki/Lissajous\_curve\#/media/File:Lissajous\_phase.svg}
+
+\bibitem{Onlinecurve}
+“Lissajous Curves.” \textit{Lissajous Curves | Academo.org - Free, Interactive, Education.},\texttt{ academo.org/demos/lissajous-curves/}
+
+\bibitem{Oscilloscope}
+“Lissajous Figure.” \textit{Encyclopaedia Britannica}, 20 July 1998, \texttt{www.britannica.com/science/Lissajous-figure}
+
+\bibitem{NathanielBowditch}
+“Nathaniel Bowditch (1773--1838) --- Historical Sketch.” \textit{Hardy Calculus}, \texttt{hardycalculus.com/calcindex/IE\_bowditch.htm}
+
+\bibitem{Harmpic}
+Sims, Karl. “Harmonograph.” \textit{Karl Sims}, www.karlsims.com/harmonograph/
+
+\bibitem{3DCurve}
+Trott, Michael. “3D Lissajous Curve with Avoided Intersections.”\textit{Wolfram Demonstrations Project}, demonstrations.wolfram.com/
+
+\end{thebibliography}
+\end{document}
